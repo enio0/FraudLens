@@ -1,0 +1,16 @@
+# Virtual environment — machine-specific, regenerable from requirements.txt
+.venv/
+
+# Data — too large and often not licensed for redistribution
+data/raw/
+data/processed/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
